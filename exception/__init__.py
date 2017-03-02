@@ -17,3 +17,7 @@ class EconomyServiceException(CityServiceException):
 
 class BasicServiceException(CityServiceException):
     pass
+
+
+class NetworkException(CityServiceException):
+    pass
